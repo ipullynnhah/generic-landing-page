@@ -1,168 +1,164 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Página Institucional Genérica</title>
-    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/index.css"/>
   </head>
   <body>
-    <header>
-      <img src="./src/assets/logo.svg" alt="logo" />
-      <button>Entrar para próxima turma</button>
+    <header class="header">
+      <img class="header__logo" src="./src/assets/logo.svg" alt="logo"/>
+      <button class="header__btn btn">Entrar para próxima turma</button>
     </header>
     <main>
-      <section>
-        <h1>Desenvolvendo <span>suas</span> próximas habilidades</h1>
-        <p>
+      <section class="hero">
+        <h1 class="hero__title">
+          Desenvolvendo <span class="hero__title--blue">suas</span> próximas habilidades
+        </h1>
+        <p class="hero__text">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s
+          industry. Lorem Ipsum has been the industry's standard dummy text
+          ever since the 1500s
         </p>
-        <button>Sobre nós</button>
+        <button class="hero__btn btn btn--blue">Sobre nós</button>
       </section>
 
-      <section>
-        <h2>Quem somos nós?</h2>
-        <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using.
+      <section class="about">
+        <h2 class="about__title">Quem somos nós?</h2>
+        <p class="about__text">
+          It is a long established fact that a reader will be distracted by
+          the readable content of a page when looking at its layout. The point
+          of using Lorem Ipsum is that it has a more-or-less normal
+          distribution of letters, as opposed to using.
         </p>
       </section>
 
-      <section>
-        <div>
-          <div>
-            <h2>Dúvidas frequentes</h2>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
-            </p>
-            <button>Entrar para próxima turma</button>
-          </div>
-        </div>
-        <ul>
-          <li>
-            <h3>Quais matérias vou pagar?</h3>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using
-            </p>
-          </li>
-          <li>
-            <h3>Tenho direito à cancelamento?</h3>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using
-            </p>
-          </li>
-          <li>
-            <h3>O acesso do curso é vitalício?</h3>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using
-            </p>
-          </li>
-          <li>
-            <h3>O acesso do curso é vitalício?</h3>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <div>
-          <div>
-            <h2>O que nossos alunos comentam?</h2>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
-            </p>
-          </div>
+      <section class="faq">
+        <div class="faq__container">
+          <h2 class="faq__title">Dúvidas frequentes</h2>
+          <p class="faq__text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s
+          </p>
+          <button class="faq__btn btn btn--blue">Entrar para próxima turma</button>
         </div>
 
-        <ul>
-          <li>
-            <div>
-              <h3>Júlia Lima</h3>
-              <p>Aluna na turma 2019</p>
+        <dl class="faq__list">
+          <dt class="faq__question">Quais matérias vou pagar?</dt>
+          <dd class="faq__answer">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The
+            point of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using
+          </dd>
+
+          <dt class="faq__question">Tenho direito à cancelamento?</dt>
+          <dd class="faq__answer">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The
+            point of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using
+          </dd>
+
+          <dt class="faq__question">O acesso do curso é vitalício?</dt>
+          <dd class="faq__answer">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The
+            point of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using
+          </dd>
+
+          <dt class="faq__question">O acesso do curso é vitalício?</dt>
+          <dd class="faq__answer faq__answer--last">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The
+            point of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using
+          </dd>
+        </dl>
+      </section>
+
+      <section class="testimonials">
+        <div class="testimonials__container">
+          <h2 class="testimonials__title">O que nossos alunos comentam?</h2>
+          <p class="testimonials__text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s
+          </p>
+        </div>
+
+        <ul class="testimonial__list">
+          <li class="testimonial__item">
+            <div class="testimonial__info">
+              <h3 class="testimonial__user">Júlia Lima</h3>
+              <p class="testimonial__cohort">Aluna na turma 2019</p>
             </div>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 👋🏿
+            <p class="testimonial__text">
+              It is a long established fact that a reader will be distracted
+              by the readable content of a page when looking at its layout.
+              The point of using Lorem Ipsum is that it has a more-or-less
+              normal distribution of letters, as opposed to using 👋🏿
             </p>
           </li>
-          <li>
-            <div>
-              <h3>Carlos Ino</h3>
-              <p>Aluno na turma 2020</p>
+          <li class="testimonial__item">
+            <div class="testimonial__info">
+              <h3 class="testimonial__user">Carlos Ino</h3>
+              <p class="testimonial__cohort">Aluno na turma 2020</p>
             </div>
-            <p>
+            <p class="testimonial__text">
               It is a 🎨 established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
               point of using Lorem Ipsum is that it has a more-or-less normal
               distribution of letters, as opposed to using
             </p>
           </li>
-          <li>
-            <div>
-              <h3>Camila Dias</h3>
-              <p>Aluna na turma 2019</p>
+          <li class="testimonial__item">
+            <div class="testimonial__info">
+              <h3 class="testimonial__user">Camila Dias</h3>
+              <p class="testimonial__cohort">Aluna na turma 2019</p>
             </div>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using ❤️ ❤️ ❤️
+            <p class="testimonial__text">
+              It is a long established fact that a reader will be distracted
+              by the readable content of a page when looking at its layout.
+              The point of using Lorem Ipsum is that it has a more-or-less
+              normal distribution of letters, as opposed to using ❤️ ❤️ ❤️
             </p>
           </li>
-          <li>
-            <div>
-              <h3>João Vaz</h3>
-              <p>Aluno na turma 2019</p>
+          <li class="testimonial__item">
+            <div class="testimonial__info">
+              <h3 class="testimonial__user">João Vaz</h3>
+              <p class="testimonial__cohort">Aluno na turma 2019</p>
             </div>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 🕓 🕓 🕓️
+            <p class="testimonial__text">
+              It is a long established fact that a reader will be distracted
+              by the readable content of a page when looking at its layout.
+              The point of using Lorem Ipsum is that it has a more-or-less
+              normal distribution of letters, as opposed to using 🕓 🕓 🕓️
             </p>
-          </li>1
-          <li>
-            <div>
-              <h3>Gio Oliveira</h3>
-              <p>Aluna na turma 2019</p>
+          </li>
+          <li class="testimonial__item">
+            <div class="testimonial__info">
+              <h3 class="testimonial__user">Gio Oliveira</h3>
+              <p class="testimonial__cohort">Aluna na turma 2019</p>
             </div>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 👏 👏 👏️
+            <p class="testimonial__text">
+              It is a long established fact that a reader will be distracted
+              by the readable content of a page when looking at its layout.
+              The point of using Lorem Ipsum is that it has a more-or-less
+              normal distribution of letters, as opposed to using 👏 👏 👏️
             </p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <img src="./src/assets/logo.svg" alt="logo" />
+    <footer class="footer">
+      <img class="footer__logo" src="./src/assets/logo.svg" alt="logo"/>
     </footer>
 
     <dialog></dialog>
+    </div>
   </body>
 </html>
