@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Nunito:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Nunito:wght@600&display=swap");
+
 :root {
   --color-brand-1: #4c6ef5;
   --color-brand-2: #364fc7;
@@ -11,13 +12,20 @@
   --color-gray-6: #edf2ff;
   --color-gray-7: #f8f9fa;
 
-  --font-title-1: 600 3.25rem/1.4 "Inter", sans-serif;
-  --font-title-2: 600 2.5rem/1.6 "Inter", sans-serif;
-  --font-title-3: 600 2rem/1.6 "Inter", sans-serif;
-  --font-text-1: 400 1.25rem/1.5 "Inter", sans-serif;
-  --font-text-2: 400 1.125rem/1.5 "Inter", sans-serif;
-  --font-text-3: 400 1rem/1.5 "Inter", sans-serif;
-  --font-text-4: 600 1rem/1.5 "Inter", sans-serif;
+  --font-title-1: 600 clamp(2.125rem, 1.6539rem + 1.7734vw, 3.25rem) / 1.4 "Inter",
+    sans-serif;
+  --font-title-2: 600 clamp(1.5rem, 1.0813rem + 1.5764vw, 2.5rem) / 1.6 "Inter",
+    sans-serif;
+  --font-title-3: 600 clamp(1.25rem, 0.936rem + 1.1823vw, 2rem) / 1.6 "Inter",
+    sans-serif;
+  --font-text-1: 400 clamp(1rem, 0.8953rem + 0.3941vw, 1.25rem) / 1.5 "Inter",
+    sans-serif;
+  --font-text-2: 400 clamp(1rem, 0.9477rem + 0.197vw, 1.125rem) / 1.5 "Inter",
+    sans-serif;
+  --font-text-3: 400 clamp(0.875rem, 0.8227rem + 0.197vw, 1rem) / 1.5 "Inter",
+    sans-serif;
+  --font-text-4: 600 clamp(0.875rem, 0.8227rem + 0.197vw, 1rem) / 1.5 "Inter",
+    sans-serif;
 
   --font-close-btn: 600 1.25rem/1.6 "Nunito", sans-serif;
   --modal-backdrop: rgba(25 28 31 / 0.8);
@@ -41,7 +49,7 @@ button {
 }
 
 section {
-  padding: 5.125rem 0;
+  padding: clamp(2rem, 0.6915rem + 4.9261vw, 5.125rem) 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
