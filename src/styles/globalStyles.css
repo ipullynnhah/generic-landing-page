@@ -12,7 +12,8 @@
   --color-gray-6: #edf2ff;
   --color-gray-7: #f8f9fa;
 
-  --font-title-1: 600 clamp(2.125rem, 1.6539rem + 1.7734vw, 3.25rem) / 1.4 "Inter",
+  --font-title-1: 600 clamp(2.125rem, 1.6539rem + 1.7734vw, 3.25rem) / 1.4
+      "Inter",
     sans-serif;
   --font-title-2: 600 clamp(1.5rem, 1.0813rem + 1.5764vw, 2.5rem) / 1.6 "Inter",
     sans-serif;
